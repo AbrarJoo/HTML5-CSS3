@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+    <h1>Multimedia Player</h1>
+
+    <section>
+      <h2>Sailing Away</h2>
+      <audio controls aria-label="sailing away">
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3">
+      </audio>
+    </section>
+
+    <section>
+      <h2>Map Method</h2>
+      <video controls width="600" aria-label="how does map method work">
+        <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+        <track src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="english">
+        </video>
+    </section>
+
+    <section>
+      <h2>Transcipt</h2>
+      <p>The map method is a built-in JavaScript array method.
+
+It allows you to create a new array by applying a function to every element of an existing array.
+
+The original array is not modified.
+
+Instead, map returns a new array with the transformed values.
+
+The map method takes a callback function as an argument.
+
+This function runs once for each element in the array.
+
+Each time it runs, it receives the current element as input.
+
+It can also receive the index and the entire array.
+
+The callback function must return a value.
+
+That returned value becomes part of the new array.
+
+For example, if you have an array of numbers, you can use map to create a new array where each number is doubled.
+
+Map is useful when you want to transform data without changing the original array.
+
+This makes your code more predictable and easier to understand.
+
+Map is commonly used in functional programming.
+
+It helps you write cleaner and more reusable code.</p>
+    </section>
+</body>
+
+</html>

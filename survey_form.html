@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    
+    <h1 id="title">Student feedback form</h1>
+    <p id="description">welcome to the official survey form for the school MEI
+      kindly fill the respective fields</p>
+    
+    <form id="survey-form" action="/submit">
+    <label id="name-label">Enter Name:</label>
+    <input id="name" type="text" required placeholder="e.g John Doe">
+
+    <label id="email-label">Enter Email:</label>
+    <input id="email" type="email" required placeholder="example@gmail.com">
+
+    <label id="number-label">Enter Age:</label>
+    <input id="number" type="number" min="3" max="20" placeholder="e.g 20">
+
+    <select id="dropdown">
+      <option value="bad">Bad</option>
+      <option value="good">Good</option>
+    </select>
+
+    <fieldset>
+      <legend>was it a good school?</legend>
+      <label id="yes">Yes</label>
+    <input type="radio" id="yes" name="Yes" value="yes">
+
+    <label id="no">No</label>
+    <input type="radio" id="no" name="No" value="no">
+    </fieldset>
+
+    <fieldset>
+      <legend>were the teachers good?</legend>
+      <label id="yes">Yes</label>
+    <input type="radio" id="yes" name="Yes" value="yes">
+
+    <label id="no">No</label>
+    <input type="radio" id="no" name="No" value="no">
+    </fieldset>
+
+    <fielset>
+      <legend>what subjects did you study at our school</legend>
+      <input type="checkbox" id="math" value="math">
+      <label for="math">Mathematics</label>
+
+      <input type="checkbox" id="english" value="english">
+      <label for="math">English</label>
+    </fieldset>
+
+    <label for="comments">Add comments</label>
+    <textarea id="comments" name="comments"></textarea>
+    <button type="submit" id="submit">Submit</button> 
+    </form>
+    
+
+  </body>
+</html>
