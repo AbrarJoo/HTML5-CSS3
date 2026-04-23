@@ -1,6 +1,6 @@
 
 
-# 📘 HTML Practice Projects
+# 📘 HTML  CSS Practice Projects
 
 This repository contains a collection of small projects and exercises I built while learning the basics of HTML.
 
